@@ -1,0 +1,224 @@
+<scene export_time="1461278183.9585881" exported_by="riccardo" formatVersion="1.0.1" previous_export_time="1461277828.6267176" >
+  <nodes >
+    <node name="Empty" >
+      <position x="-15.210234" y="9.615128" z="6.432324" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <node name="box" >
+        <position x="-0.272267" y="-0.360718" z="-2.184271" />
+        <rotation qw="0.896995" qx="-0.151220" qy="-0.203761" qz="0.361959" />
+        <scale x="0.238097" y="0.238097" z="0.238097" />
+        <user_data name="uid" type="int" value="101" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity actor="True" anisotropic_friction="False" collisionPrim="box" damping_rot="0.1589999943971634" damping_trans="0.02539999969303608" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="False" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="1.0" mass_radius="1.0" meshFile="Cube.mesh" name="Cube" physics_type="NO_COLLISION" velocity_max="0.0" velocity_min="0.0" />
+      </node>
+      <node name="Cube" >
+        <position x="0.609384" y="-2.419808" z="-2.975079" />
+        <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+        <scale x="0.238097" y="0.238097" z="0.238097" />
+        <user_data name="uid" type="int" value="101" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity actor="True" anisotropic_friction="False" collisionPrim="box" damping_rot="0.1589999943971634" damping_trans="0.02539999969303608" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="False" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="1.0" mass_radius="1.0" meshFile="Cube.mesh" name="Cube" physics_type="NO_COLLISION" velocity_max="0.0" velocity_min="0.0" />
+      </node>
+      <node name="Cube.001" >
+        <position x="1.951358" y="-0.549495" z="-1.361547" />
+        <rotation qw="0.896995" qx="-0.151220" qy="-0.203761" qz="0.361959" />
+        <scale x="0.238097" y="0.238097" z="0.238097" />
+        <user_data name="uid" type="int" value="101" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity actor="True" anisotropic_friction="False" collisionPrim="box" damping_rot="0.1589999943971634" damping_trans="0.02539999969303608" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="False" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="0.009999999776482582" mass_radius="1.0" meshFile="Cube.mesh" name="Cube" physics_type="NO_COLLISION" velocity_max="0.0" velocity_min="0.0" />
+      </node>
+    </node>
+    <node name="Plane.001" >
+      <position x="-7.398386" y="-4.421535" z="48.853584" />
+      <rotation qw="0.996281" qx="-0.055588" qy="-0.005953" qz="0.065561" />
+      <scale x="32.269783" y="32.269787" z="32.269787" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity actor="False" anisotropic_friction="False" collisionPrim="triangle_mesh" damping_rot="0.10000000149011612" damping_trans="0.03999999910593033" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="False" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="1.0" mass_radius="1.0" meshFile="Plane.001.mesh" name="Plane.001" physics_type="STATIC" velocity_max="0.0" velocity_min="0.0" />
+    </node>
+    <node name="convex_hull" >
+      <position x="-17.999380" y="16.625811" z="-3.111201" />
+      <rotation qw="0.971978" qx="-0.041400" qy="-0.164690" qz="-0.162547" />
+      <scale x="1.973271" y="1.973271" z="1.973271" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity actor="True" anisotropic_friction="False" collisionPrim="convex_hull" damping_rot="0.10000000149011612" damping_trans="0.03999999910593033" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="False" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="1.0" mass_radius="1.0" meshFile="Suzanne.001.mesh" name="Suzanne.001" physics_type="RIGID_BODY" velocity_max="0.0" velocity_min="0.0" />
+    </node>
+    <node name="gimpact" >
+      <position x="9.628471" y="16.491453" z="4.110813" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+      <scale x="1.973271" y="1.973271" z="1.973271" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity actor="True" anisotropic_friction="False" collisionPrim="triangle_mesh" damping_rot="0.10000000149011612" damping_trans="0.03999999910593033" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="False" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="1.0" mass_radius="1.0" meshFile="Suzanne.mesh" name="Suzanne" physics_type="RIGID_BODY" velocity_max="0.0" velocity_min="0.0" />
+    </node>
+    <node name="cylinder.001" >
+      <position x="-9.299745" y="19.047176" z="25.184544" />
+      <rotation qw="0.968759" qx="0.056938" qy="-0.229407" qz="-0.075073" />
+      <scale x="0.605429" y="0.605429" z="0.605429" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity actor="True" anisotropic_friction="False" collisionPrim="cone" damping_rot="0.10000000149011612" damping_trans="0.03999999910593033" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="False" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="1.0" mass_radius="1.0" meshFile="Cube.004.mesh" name="Cube.004" physics_type="RIGID_BODY" velocity_max="0.0" velocity_min="0.0" />
+    </node>
+    <node name="cylinder" >
+      <position x="-9.149049" y="22.728794" z="24.831135" />
+      <rotation qw="0.981337" qx="-0.175110" qy="-0.048442" qz="0.062986" />
+      <scale x="0.749562" y="0.749562" z="0.749562" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity actor="True" anisotropic_friction="False" collisionPrim="cylinder" damping_rot="0.10000000149011612" damping_trans="0.03999999910593033" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="False" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="1.0" mass_radius="1.0" meshFile="Cube.003.mesh" name="Cube.003" physics_type="RIGID_BODY" velocity_max="0.0" velocity_min="0.0" />
+    </node>
+    <node name="sphere" >
+      <position x="-0.145877" y="13.090230" z="-26.804550" />
+      <rotation qw="0.958359" qx="-0.072064" qy="-0.125975" qz="-0.245939" />
+      <scale x="1.774838" y="1.774838" z="1.774838" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity actor="True" anisotropic_friction="False" collisionPrim="sphere" damping_rot="0.10000000149011612" damping_trans="0.03999999910593033" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="False" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="1.0" mass_radius="1.0" meshFile="Cube.002.mesh" name="Cube.002" physics_type="RIGID_BODY" velocity_max="0.0" velocity_min="0.0" />
+    </node>
+    <node name="Area" >
+      <position x="-2.862716" y="61.912003" z="-17.878017" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+    </node>
+    <node name="convex_hull.002" >
+      <position x="-5.654420" y="17.763103" z="-1.939877" />
+      <rotation qw="0.815603" qx="0.146105" qy="0.043528" qz="-0.558167" />
+      <scale x="2.241009" y="3.641870" z="3.641871" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity actor="True" anisotropic_friction="False" collisionPrim="convex_hull" damping_rot="0.10000000149011612" damping_trans="0.03999999910593033" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="True" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="1.0" mass_radius="1.0" meshFile="Cube.001.mesh" name="Cube.001" physics_type="STATIC" velocity_max="0.0" velocity_min="0.0" />
+    </node>
+    <node name="capsule" >
+      <position x="-5.357477" y="27.526773" z="1.077088" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity actor="True" anisotropic_friction="False" collisionPrim="capsule" damping_rot="0.10000000149011612" damping_trans="0.03999999910593033" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="False" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="1.0" mass_radius="1.0" meshFile="Sphere.mesh" name="Sphere" physics_type="RIGID_BODY" velocity_max="0.0" velocity_min="0.0" />
+    </node>
+    <node name="Plane" >
+      <position x="-7.002224" y="-2.133151" z="-1.983479" />
+      <rotation qw="0.994700" qx="0.081071" qy="-0.002924" qz="0.063179" />
+      <scale x="32.269787" y="32.269787" z="32.269783" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity actor="False" anisotropic_friction="False" collisionPrim="triangle_mesh" damping_rot="0.10000000149011612" damping_trans="0.03999999910593033" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="False" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="1.0" mass_radius="1.0" meshFile="Plane.mesh" name="Plane" physics_type="STATIC" velocity_max="0.0" velocity_min="0.0" />
+    </node>
+    <node name="convex_hull.001" >
+      <position x="-11.680971" y="45.059292" z="50.490917" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <user_data name="uid" type="int" value="100" />
+      <game >
+        <sensors >
+          <sensor name="Always" type="ALWAYS" />
+        </sensors>
+        <actuators />
+      </game>
+      <entity actor="True" anisotropic_friction="False" collisionPrim="convex_hull" damping_rot="0.10000000149011612" damping_trans="0.03999999910593033" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="False" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="10.899999618530273" mass_radius="1.0" meshFile="Cylinder.mesh" name="Cylinder" physics_type="RIGID_BODY" velocity_max="0.0" velocity_min="0.0" />
+    </node>
+    <node name="Lamp" >
+      <position x="4.076245" y="5.903862" z="-1.005454" />
+      <rotation qw="0.570947" qx="0.169076" qy="0.755880" qz="-0.272171" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <user_data name="uid" type="int" value="102" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light name="Lamp" powerScale="1.0" shadow="true" type="point" >
+        <position x="4.076245" y="5.903862" z="-1.005454" />
+        <lightAttenuation constant="1.0" linear="0.03333335240683057" quadratic="0.0" range="5000" />
+        <colourDiffuse b="1.0" g="1.0" r="1.0" />
+        <colourSpecular b="1.0" g="1.0" r="1.0" />
+        <colourShadow b="1.0" g="1.0" r="1.0" />
+      </light>
+    </node>
+    <node name="Camera" >
+      <position x="7.481132" y="5.343665" z="6.507640" />
+      <rotation qw="0.781600" qx="0.481707" qy="0.334251" qz="-0.212922" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <camera fov="0.5033799435163735" name="Camera" projectionType="perspective" >
+        <clipping far="100.0" farPlaneDist="100.0" near="0.10000000149011612" nearPlaneDist="0.10000000149011612" />
+      </camera>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="/DEV/TestData/assets/models/physceneOgre/Material.material" />
+    </item>
+    <item type="material" >
+      <file name="/DEV/TestData/assets/models/physceneOgre/Material.001.material" />
+    </item>
+    <item type="material" >
+      <file name="/DEV/TestData/assets/models/physceneOgre/Material.008.material" />
+    </item>
+    <item type="material" >
+      <file name="/DEV/TestData/assets/models/physceneOgre/Material.009.material" />
+    </item>
+    <item type="material" >
+      <file name="/DEV/TestData/assets/models/physceneOgre/Material.006.material" />
+    </item>
+    <item type="material" >
+      <file name="/DEV/TestData/assets/models/physceneOgre/Material.007.material" />
+    </item>
+    <item type="material" >
+      <file name="/DEV/TestData/assets/models/physceneOgre/Material.005.material" />
+    </item>
+    <item type="material" >
+      <file name="/DEV/TestData/assets/models/physceneOgre/Material.004.material" />
+    </item>
+    <item type="material" >
+      <file name="/DEV/TestData/assets/models/physceneOgre/Material.003.material" />
+    </item>
+    <item type="material" >
+      <file name="/DEV/TestData/assets/models/physceneOgre/Material.002.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourDiffuse b="0.05087608844041824" g="0.05087608844041824" r="0.05087608844041824" />
+    <colourAmbient b="0.0" g="0.0" r="0.0" />
+    <colourBackground b="0.05087608844041824" g="0.05087608844041824" r="0.05087608844041824" />
+  </environment>
+</scene>

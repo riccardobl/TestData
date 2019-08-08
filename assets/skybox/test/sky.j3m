@@ -1,0 +1,8 @@
+Material TestSkyBox : cr/Rendering/Sky.j3md {
+     MaterialParameters {
+         Texture: MinTrilinear MagBilinear WrapEdgeClamp Flip "skybox/test/sky.dds"
+         NormalScale: 1 1 1
+         SphereMap: False
+         EquirectMap: False
+     }
+}

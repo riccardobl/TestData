@@ -1,0 +1,70 @@
+<scene export_time="1461945722.7727885" exported_by="riccardo" formatVersion="1.0.1" previous_export_time="0" >
+  <nodes >
+    <node name="Lamp" >
+      <position x="4.076245" y="5.903862" z="-1.005454" />
+      <rotation qw="0.570947" qx="0.169076" qy="0.755880" qz="-0.272171" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light name="Lamp" powerScale="1.0" shadow="true" type="point" >
+        <position x="4.076245" y="5.903862" z="-1.005454" />
+        <lightAttenuation constant="1.0" linear="0.03333335240683057" quadratic="0.0" range="5000" />
+        <colourDiffuse b="1.0" g="1.0" r="1.0" />
+        <colourSpecular b="1.0" g="1.0" r="1.0" />
+        <colourShadow b="1.0" g="1.0" r="1.0" />
+      </light>
+    </node>
+    <node name="Camera" >
+      <position x="3.559874" y="0.213258" z="3.299851" />
+      <rotation qw="0.575755" qx="0.692707" qy="0.277642" qz="-0.334035" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <camera fov="0.5033799435163735" name="Camera" projectionType="perspective" >
+        <clipping far="100.0" farPlaneDist="100.0" near="0.10000000149011612" nearPlaneDist="0.10000000149011612" />
+      </camera>
+    </node>
+    <node name="Deer Armature" >
+      <position x="0.000000" y="1.050010" z="-1.017324" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <node name="Deer Stag" >
+        <position x="0.000010" y="0.000010" z="-0.000010" />
+        <rotation qw="1.000000" qx="0.000000" qy="-0.000000" qz="-0.000000" />
+        <scale x="0.010000" y="0.010000" z="0.010000" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity actor="True" anisotropic_friction="False" collisionPrim="triangle_mesh" damping_rot="0.10000000149011612" damping_trans="0.03999999910593033" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="False" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="1.0" mass_radius="1.0" meshFile="Deer_Stag.mesh" name="Deer Stag" physics_type="RIGID_BODY" velocity_max="0.0" velocity_min="0.0" />
+      </node>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="/DEV/TestData/assets/models/deer/ogre/Pelt.material" />
+    </item>
+    <item type="material" >
+      <file name="/DEV/TestData/assets/models/deer/ogre/Eye.material" />
+    </item>
+    <item type="material" >
+      <file name="/DEV/TestData/assets/models/deer/ogre/Antlers.material" />
+    </item>
+    <item type="material" >
+      <file name="/DEV/TestData/assets/models/deer/ogre/Nose.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourBackground b="0.05087608844041824" g="0.05087608844041824" r="0.05087608844041824" />
+    <colourAmbient b="0.0" g="0.0" r="0.0" />
+    <colourDiffuse b="0.05087608844041824" g="0.05087608844041824" r="0.05087608844041824" />
+  </environment>
+</scene>

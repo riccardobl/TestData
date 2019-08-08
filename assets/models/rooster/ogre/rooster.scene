@@ -1,0 +1,71 @@
+<scene export_time="1461945638.5075557" exported_by="riccardo" formatVersion="1.0.1" previous_export_time="0" >
+  <nodes >
+    <node name="Hemi" >
+      <position x="-13.350192" y="5.419515" z="13.791271" />
+      <rotation qw="0.125985" qx="-0.926471" qy="0.094162" qz="-0.341925" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+    </node>
+    <node name="Armature" >
+      <position x="0.000000" y="0.000000" z="-0.000000" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <node name="Rooster" >
+        <position x="0.000000" y="5.296470" z="-0.052133" />
+        <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+        <scale x="1.000000" y="1.000000" z="1.000000" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity actor="True" anisotropic_friction="False" collisionPrim="triangle_mesh" damping_rot="0.10000000149011612" damping_trans="0.03999999910593033" friction_x="1.0" friction_y="1.0" friction_z="1.0" ghost="False" inertia_tensor="0.4000000059604645" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" mass="1.0" mass_radius="1.0" meshFile="Cylinder.mesh" name="Cylinder" physics_type="RIGID_BODY" velocity_max="0.0" velocity_min="0.0" />
+      </node>
+    </node>
+    <node name="Lamp" >
+      <position x="15.796887" y="26.960180" z="-1.005454" />
+      <rotation qw="0.971319" qx="-0.222332" qy="-0.075861" qz="-0.036780" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light name="Lamp" powerScale="1.0" shadow="true" type="directional" >
+        <position x="15.796887" y="26.960180" z="-1.005454" />
+        <lightAttenuation constant="1.0" linear="0.03333335240683057" quadratic="0.0" range="5000" />
+        <direction x="0.038" y="-0.898" z="-0.437" />
+        <colourDiffuse b="1.0" g="1.0" r="1.0" />
+        <colourSpecular b="1.0" g="1.0" r="1.0" />
+        <colourShadow b="1.0" g="1.0" r="1.0" />
+      </light>
+    </node>
+    <node name="Camera" >
+      <position x="14.205057" y="15.468965" z="18.420233" />
+      <rotation qw="0.745800" qx="0.578100" qy="0.261635" qz="-0.202805" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <camera fov="0.7362615426503272" name="Camera" projectionType="perspective" >
+        <clipping far="100.0" farPlaneDist="100.0" near="0.10000000149011612" nearPlaneDist="0.10000000149011612" />
+      </camera>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="/DEV/TestData/assets/models/rooster/ogre/Head.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourBackground b="1.0" g="1.0" r="1.0" />
+    <colourAmbient b="0.0" g="0.0" r="0.0" />
+    <colourDiffuse b="1.0" g="1.0" r="1.0" />
+  </environment>
+</scene>
